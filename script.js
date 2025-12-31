@@ -39,7 +39,7 @@ function onNewYear() {
     }, 5000);
     */
     setTimeout(() => {
-        window.location.href = '/r/rick.mp4';
+        window.location.href = 'https://keinerokami.github.io/NYPROJ/r/rick.mp4';
     }, 5000);
 }
 
