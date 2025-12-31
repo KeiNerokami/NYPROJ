@@ -39,7 +39,7 @@ function onNewYear() {
     }, 5000);
     */
     setTimeout(() => {
-        window.location.href = 'https://youtu.be/dQw4w9WgXcQ?t=0';
+        window.location.href = '/r/rick.mp4';
     }, 5000);
 }
 
