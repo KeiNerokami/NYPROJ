@@ -20,6 +20,27 @@ function onNewYear() {
     st.textContent = "Year complete.";
     createConfetti();
     createFireworks();
+    /*
+    setTimeout(() => {
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube.com/embed/dQw4w9WgXcQ';
+        iframe.width = '1104';
+        iframe.height = '621';
+        iframe.frameBorder = '0';
+        iframe.allow = 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        iframe.allowFullscreen = true;
+        iframe.style.position = 'fixed';
+        iframe.style.top = '50%';
+        iframe.style.left = '50%';
+        iframe.style.transform = 'translate(-50%, -50%)';
+        iframe.style.zIndex = '1000';
+        document.body.appendChild(iframe);
+    }, 5000);
+    */
+    setTimeout(() => {
+        window.location.href = 'https://youtu.be/dQw4w9WgXcQ?t=0';
+    }, 5000);
 }
 
 function createConfetti() {
